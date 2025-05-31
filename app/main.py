@@ -1,3 +1,4 @@
+import utils.session
 from fastapi import FastAPI
 from app.router.predict_router import router as predict_router
 from fastapi.staticfiles import StaticFiles
